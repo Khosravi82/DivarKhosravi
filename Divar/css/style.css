@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+}
+a{text-decoration: none;}
+
+
+nav{
+    border: 1px solid red;
+    height: 50px;
+
+}
+nav img {
+    height: 30px;
+    margin: 10px;
+    float: right;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+nav ul li {
+    float: right;
+    margin: auto 10px;
+    color: rgb(43, 43, 43);
+}
+nav ul li:hover{
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+}
+nav ul.menuleft {
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* nav ul.menuleft li{
+    background: red;
+    color: white;
+    padding: 10px;
+    margin: 10px; 
+     
+}
+*/
+nav ul.menuleft li a{
+    color: white;
+    background: rgb(240, 62, 62);
+    padding: 6px;
+    border-radius: 8px;
+    
+
+}
